@@ -1,0 +1,9 @@
+.infoTooltip__image {
+  margin: 60px 155px 32px 155px;
+}
+
+@media screen and (max-width: 767px) {
+  .infoTooltip__image {
+    margin: 50px 80px 40px 80px;
+  }
+}

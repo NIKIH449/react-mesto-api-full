@@ -1,0 +1,15 @@
+.header__container {
+  display: flex;
+  font-family: Inter;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .header__container {
+    flex-direction: column;
+    padding-bottom: 32px;
+  }
+}
